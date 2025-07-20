@@ -10,16 +10,23 @@
 <body>
 <?php include("inc_header.php");
 include("inc_nav.php"); ?>
-<?php  
+<?php
+
 if (isset($_REQUEST['name'])) {
     echo "<h2>Thank you ". $_REQUEST['name']."</h2>";
 }
 else {
-    echo "<h2>Please subscribe</h2>";
+  echo "<h2>Please subscribe</h2>";
+}
+
+function printadvice($username, $count){
+  echo "<h3> Hi $username, here are your $count tips:</h3>";
+  for ($i = 1; $i <= $count; $i++){
+    echo "<p>Tip #$i: Always believe in yourself and keep learning!</p>";  
+  }
 }
 
 ?>
-
 
 
 <div id="content">
@@ -42,6 +49,9 @@ else {
   }else {
     echo "<p>Welcome, ma'am! Here's your personalised advice package.</p>";
   }
+
+  printadvice($name, 3); // or any number of tips you want to show
+
 ?>
 
 <p>...<form action="process.php" method="get">
