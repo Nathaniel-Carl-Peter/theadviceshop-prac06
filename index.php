@@ -13,9 +13,10 @@
     include( "inc_nav.php" ); 
 ?>
 <section id="content">
-    <?php
-        echo "<h2>Welcome to The Advice Shop </h2>";
-    ?>
+<?php
+echo "<h2>Welcome to The Advice Shop</h2>";
+?>
+
     
 
     <p><strong>You need advice. We provide it</strong>.</p>
@@ -33,17 +34,18 @@
     <p><img src="images/womanHeadset.jpg" alt="" width="310" height="200"
                                       class="rightImage"/>For all advice related to:</p>
     
-    <?php
-    echo '
-    <ul>
-        <li>Learning</li>
-        <li>Relationships</li>
-        <li>Technology</li>
-        <li>Coffee</li>
-        <li>and so much more...</li>
-    </ul>
-    ';
-    ?>
+<?php
+echo '
+<ul>
+    <li>Learning</li>
+    <li>Relationships</li>
+    <li>Technology</li>
+    <li>Coffee</li>
+    <li>and so much more...</li>
+</ul>
+';
+?>
+
 
 
 
