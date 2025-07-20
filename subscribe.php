@@ -16,7 +16,7 @@ include("inc_nav.php"); ?>
 ?>
 
 <div id="content">
-  <!-- <form action="process.php" method="get"> -->
+  <form action="process.php" method="get">
   <p>
     <label for="name">Name:</label>
     <input type="text" name="name" id="name" required>

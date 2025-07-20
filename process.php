@@ -36,10 +36,10 @@ else {
     echo "<h2>Thank you for subscribing, $name!</h2>";
   }
   
+  //for gender
   if ($gender== "male") {
     echo "<p>Welcome, sir! Here's your personalised advice package.</p>";
-  }
-  else {
+  }else {
     echo "<p>Welcome, ma'am! Here's your personalised advice package.</p>";
   }
 ?>
