@@ -54,25 +54,6 @@ function printadvice($username, $count){
 
 ?>
 
-<p>...<form action="process.php" method="get">
-  <p>
-    <label for="name">Name:</label>
-    <input type="text" name="name" id="name" required>
-  </p>
-  <p>Gender:<br>
-    <label>
-      <input type="radio" name="gender" value="male" id="gender_0">
-      Male</label>
-    <br>
-    <label>
-      <input type="radio" name="gender" value="female" id="gender_1">
-      Female</label>
-    <br>
-  </p>
-  <p>
-    <input type="submit" name="submit" id="submit" value="Subscribe">
-  </p>
-</form>
 </p>
 </div>
 <?php include("inc_footer.php"); ?>
