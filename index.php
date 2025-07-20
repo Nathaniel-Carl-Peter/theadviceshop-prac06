@@ -14,7 +14,7 @@
 ?>
 <section id="content">
     <?php
-        echo( "<h2>Welcome to The Advice Shop </h2>" );
+        echo "<h2>Welcome to The Advice Shop </h2>";
     ?>
     
 
@@ -28,7 +28,7 @@
 
     <p><a href="subscribe.php">Subscribe now to our professional advice service.</a></p>
 
-    <?php echo("<h3>Services</h3>"); ?>
+    <?php echo "<h3>Services</h3>"; ?>
 
     <p><img src="images/womanHeadset.jpg" alt="" width="310" height="200"
                                       class="rightImage"/>For all advice related to:</p>
