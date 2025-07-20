@@ -32,6 +32,9 @@
 
     <p><img src="images/womanHeadset.jpg" alt="" width="310" height="200"
                                       class="rightImage"/>For all advice related to:</p>
+    
+    <?php
+    echo '
     <ul>
         <li>Learning</li>
         <li>Relationships</li>
@@ -39,6 +42,10 @@
         <li>Coffee</li>
         <li>and so much more...</li>
     </ul>
+    ';
+    ?>
+
+
 
 </section>
 <?php include( "inc_footer.php" ); ?>
