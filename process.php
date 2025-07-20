@@ -17,9 +17,25 @@ if (isset($_REQUEST['name'])) {
 else {
     echo "<h2>Please subscribe</h2>";
 }
+
 ?>
 
+
+
 <div id="content">
+
+<?php
+  $name = $_REQUEST['name'] ?? '';
+  $gender = $_REQUEST['gender'] ?? '';
+
+  //if else
+  if ($name == '' | $gender == '') {
+    echo 'Fill the neccasary fields';
+    echo "<p><a href='subscribe.php'>Go back to subscribe</a></p>";
+  }else {
+    echo "<h2>Thank you for subscribing, $name!</h2>";
+  }
+?>
 
 <p>...<form action="process.php" method="get">
   <p>
